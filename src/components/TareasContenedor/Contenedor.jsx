@@ -20,7 +20,7 @@ function Contenedor({ lista, funcion }) {
           );
         })
       ) : (
-        <p>!No hay tareas cargadas!</p>
+        <p>¡No hay tareas cargadas!</p>
       )}
     </section>
   );
