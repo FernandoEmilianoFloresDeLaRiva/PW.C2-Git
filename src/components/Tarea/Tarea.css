@@ -1,0 +1,32 @@
+.tarea {
+  color: #242424;
+  padding: 1em 1em 0 1em;
+  border-radius: 2em;
+  background-color: rgb(191, 211, 211);
+  width: 20vw;
+  min-height: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.tarea p {
+  width: 100%;
+  text-align: center;
+}
+
+i {
+  width: 15%;
+}
+
+i svg {
+  width: 100%;
+  transition: all 0.5s;
+}
+
+i svg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}

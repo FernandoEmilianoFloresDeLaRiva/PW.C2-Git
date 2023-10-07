@@ -1,0 +1,24 @@
+:root {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1em;
+}
+
+header {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
